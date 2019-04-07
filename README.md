@@ -27,7 +27,27 @@ tracker.current(uid, achievement)
 pip install pychivements
 ```
 
-```
+```py
+# exs/cli.py
+import sys
+import cmd
+from pychievements import tracker, Achievement, icons
+from pychievements.signals import receiver, goal_acieved, highest_level_achieved
+from pychievements.cli import print_goal, print_goals_for_tracked
+
+class TheLister(Achievement):
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 
